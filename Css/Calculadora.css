@@ -1,0 +1,27 @@
+.calculator-bottons{
+    background-color: teal;
+    color:aqua;
+    padding: 10px 15px 10px 15px;
+    margin: 10px 0px 0px 0px;
+}
+
+.calculator-input{
+    border-color: black;
+}
+
+.form-container{
+    width: 300px;
+    height: auto;
+}
+
+/*Hover Styles*/
+.calculator-bottons:hover{
+    background-color: coral;
+    color:white;
+}
+
+/*Active styles*/
+.calculator-bottons:active{
+    background-color: coral;
+    color:white;
+}
