@@ -1,3 +1,10 @@
+/*Normal styles*/
 .estilo-texto-1{
     font-size: 1.1rem;
+}
+
+/*Hover Section*/
+.boton-costum:hover{
+    border-color: white;
+    background-color: green;
 }
