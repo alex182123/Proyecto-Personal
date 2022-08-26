@@ -13,7 +13,9 @@
     width: 300px;
     height: auto;
 }
-
+.footer-Costum{
+    background-color: black;
+}
 /*Hover Styles*/
 .calculator-bottons:hover{
     background-color: coral;
