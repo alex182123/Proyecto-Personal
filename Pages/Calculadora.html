@@ -61,11 +61,11 @@
         <p class="estilo-texto-1">
             Esta calculadora fue hecha nada mas con HTML5, Css y con javascript
         </p>
-        <div class="container-fluid form-container py-3 border border-dark">
+        <div class="container-fluid form-container py-3 border border-3 border-dark">
             <!--<form name="Calculadora"> -->
                 <input type="text"  name="Calculator-input" id="input" disabled class="calculator-input">
                 <br>
-                <span id="spanerror"></span>
+                <span id="spanerror" style="color: white;"></span>
                 <br>
                 <button value="1" class="calculator-bottons" onclick="agregarValor(value)">1</button>
                 <button value="2" class="calculator-bottons" onclick="agregarValor(value)">2</button>
@@ -83,6 +83,7 @@
                 <button value="*" class="calculator-bottons" onclick="agregarValor(value)">x</button>
                 <br>
                 <button value="0" class="calculator-bottons" onclick="agregarValor(value)">0</button>
+                <button value="/" class="calculator-bottons" onclick="agregarValor(value)">/</button>
                 <button class="calculator-bottons" onclick="QuitarUnNumero()">Limpiar</button>
                 <br>
                 <button type="submit" class="Result-button" onclick="Resolver()" id="resultado">Calcular</button>
