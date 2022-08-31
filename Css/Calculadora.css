@@ -7,6 +7,9 @@
 
 .calculator-input{
     border-color: black;
+    background-color: white;
+    color: black;
+    text-align: center;
 }
 .Result-button{
     width: 100px;
@@ -21,6 +24,7 @@
 .form-container{
     width: 300px;
     height: auto;
+    background-color: darkslategray;
 }
 .footer-Costum{
     background-color: black;
