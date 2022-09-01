@@ -1,5 +1,6 @@
 const input = document.getElementById("input");
 const SpanError = document.getElementById("spanerror");
+const SpanTextoColor = document.getElementById("Texto");
 let valor = "";
 const agregarValor = (numero)=>{
     valor += numero;
@@ -24,3 +25,16 @@ const QuitarUnNumero = ()=>{
         input.value = valor;
     }
 }
+
+const CambiarColor = (Color)=>{
+    if(Color == "Red"){
+        SpanTextoColor.style.color = Color;
+        console.log(Color);
+    }else if(Color == "Green"){
+        SpanTextoColor.style.color = Color;
+        console.log(Color);
+    }else if(Color == "White"){
+        SpanTextoColor.style.color = Color;
+        console.log(Color);
+    }  
+};
