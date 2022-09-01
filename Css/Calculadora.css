@@ -13,7 +13,7 @@
 }
 .Result-button{
     width: 100px;
-    height: 30px;
+    height: auto;
     background-color: red;
     color: white;
     font-family: sans-serif;
